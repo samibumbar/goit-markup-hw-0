@@ -42,12 +42,14 @@ body {
   text-decoration: none;
   font-weight: 500;
 }
-.nav-contact:hover {
+.nav-contact:hover,
+.nav-contact:focus {
   color: var(--hover-color);
   text-decoration: underline;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--hover-color);
 }
 .header__nav-list {
@@ -126,7 +128,8 @@ body {
   color: var(--white-color);
   text-decoration: none;
 }
-.address-list__links:hover {
+.address-list__links:hover,
+.address-list__links:focus {
   text-decoration: underline;
   color: var(--hover-color);
 }
@@ -148,7 +151,8 @@ body {
   border-radius: 4px;
   padding: 6px 22px;
 }
-.btn-item:hover {
+.btn-item:hover,
+.btn-item:focus {
   color: var(--white-color);
   background-color: var(--hover-color);
   opacity: 0.5s ease;
