@@ -6,8 +6,8 @@
   --primary-background-color: #2f303a;
   --secondary-background-color: #f5f4fa;
   --border-color: #ececec;
-  --roboto-font: Roboto, sans-serif;
-  --raleway-font: Raleway;
+  --roboto-font: 'Roboto' sans-serif;
+  --raleway-font: 'Raleway' sans-serif;
 }
 body {
   color: var(--primary-text-color);
@@ -33,10 +33,10 @@ body {
   font-weight: 500;
   line-height: 16.41px;
   font-size: 14px;
-  font-family: var(--roboto-font);
+  font-family: inherit;
 }
 .nav-contact {
-  font-family: var(--roboto-font);
+  font-family: inherit;
   font-size: 14px;
   color: var(--secondary-text-color);
   text-decoration: none;
@@ -118,7 +118,7 @@ body {
 }
 
 .address-list__links {
-  font-family: var(--roboto-font);
+  font-family: inherit;
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
