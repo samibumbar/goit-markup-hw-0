@@ -36,7 +36,7 @@ body {
   font-family: inherit;
 }
 .nav-contact {
-  font-family: inherit;
+  font-family: var(--roboto-font);
   font-size: 14px;
   color: var(--secondary-text-color);
   text-decoration: none;
@@ -118,7 +118,7 @@ body {
 }
 
 .address-list__links {
-  font-family: inherit;
+  font-family: var(--roboto-font);
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
